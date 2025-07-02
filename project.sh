@@ -8,7 +8,7 @@ calculate_average_length() {
     echo $((total_length / total_sequences))
 }
 
-# Function to extract nucleotide sequences and store them in a new file
+
 extract_nucleotide_sequences() {
     local input_file="$1"
     local output_file="$2"
